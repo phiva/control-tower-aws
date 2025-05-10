@@ -65,25 +65,25 @@ module "account_factory" {
   
   accounts = {
     log_archive = {
-      email     = "aws.alterdata.archive@alterdata.com.br"
+      email     = "aws.teste.archive@teste.com.br"
       name      = "Log Archive"
       ou_name   = "Security"
       tags      = { Function = "Logging", Environment = "Production" }
     },
     transit_hub = {
-      email     = "aws.alterdata.hub@alterdata.com.br"
+      email     = "aws.teste.hub@teste.com.br"
       name      = "Transit Hub"
       ou_name   = "Infrastructure"
       tags      = { Function = "Networking", Environment = "Production" }
     },
     data = {
-      email     = "aws.alterdata.data@alterdata.com.br"
+      email     = "aws.teste.data@teste.com.br"
       name      = "Data Lake"
       ou_name   = "Data"
       tags      = { Function = "DataManagement", Environment = "Production" }
     },
     audit = {
-      email     = "aws.alterdata.audit@alterdata.com.br"
+      email     = "aws.teste.audit@teste.com.br"
       name      = "Audit"
       ou_name   = "Security"
       tags      = { Function = "Security", Environment = "Production" }
